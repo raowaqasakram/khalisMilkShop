@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="khalisMilkShop.exe" version="1.0.0.0" publicKeyToken="59e4c8ebc82341b2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon__1__geV_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="khalisMilkShop" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="khalisMilkShop.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.52.dll" size="225792">
+      <assemblyIdentity name="Bunifu_UI_v1.52" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J8jOp+eTrOc3QViBpcFrTi2YzkZgnScugsbJBa0tnzY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="khalisMilkShop.exe" size="1061336">
+      <assemblyIdentity name="khalisMilkShop" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iwCUd8VBwTyB+jGMjwxflkmUTWvS/2LSWqdYjvQ3CxM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon__1__geV_icon.ico" size="137278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ocN0U6fqhn+l+5+jaPDDLsO09n/VFue5/fLr2zsGSV4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="khalisMilkShop.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-PB8IGCN\RAO" issuerKeyHash="553df3df167bd23c2a8843c4d8afee847d0bb927" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>auFKFHXApaTNOSQR4+FGUlLU+9UIc9ar9FcglK6N8/0=</DigestValue></Reference></SignedInfo><SignatureValue>tfx6YMxl0srHmdgWmeBb4zSiOUELhRUr5Ev10clDoEYPbgy91zwPsNIs64j0oJfEXhjFqOUj3odTmHMvDbr+KnAm3IThDO53nMKnCU09yBtrTW01T3S5msVUWKEM+XNHYF259riN5k2t9ji5asWtJXBOTQftv8KW4XPd3s5ADO8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ySrXeYre9K7wYCh/pX0upI+8HsTdvwqWFw9X8H12nc9BYFOCZ8j2dIMP4ltJ3BqZKrDrndEvVJAPJPnKt+NfpJ+8YDDyccURYkYhl+/p8/G54hclnzSrW9RBdFXaXisiHVuQ1IUoqvLoKJjHBsnvZc4pQKbA+zAnCEcAcwgipLk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fdf38dae942057f4abd67308d5fbd4525246e1e3112439cda4a5c075144ae16a" Description="" Url=""><as:assemblyIdentity name="khalisMilkShop.exe" version="1.0.0.0" publicKeyToken="59e4c8ebc82341b2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-PB8IGCN\RAO</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pygt6UBI4vXGIKAem7CccW9WEZmuMsQiXeS/M69fOkU=</DigestValue></Reference></SignedInfo><SignatureValue>cQEOJ1s3j4PW8m9WghYwWqg1b4d3x2VdgnowY4QKpHiAMPRqcN962/Q1DvEQ22fM89GOeAto2OudXEOJzXVgwQvYcQWreUddqSytY2UY+MABUI5i1XeSAcXNEO2VeT1jUdVGfFwv4Tw9He1rX2bDHFMSnDaBo+lpT2uUp2qQj+g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ySrXeYre9K7wYCh/pX0upI+8HsTdvwqWFw9X8H12nc9BYFOCZ8j2dIMP4ltJ3BqZKrDrndEvVJAPJPnKt+NfpJ+8YDDyccURYkYhl+/p8/G54hclnzSrW9RBdFXaXisiHVuQ1IUoqvLoKJjHBsnvZc4pQKbA+zAnCEcAcwgipLk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQVCpBeNVDaoBFRn0lc0C6XzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtAFAAQgA4AEkARwBDAE4AXABSAEEATzAeFw0xODEwMjgyMDMyMDVaFw0xOTEwMjkwMjMyMDVaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0AUABCADgASQBHAEMATgBcAFIAQQBPMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJKtd5it70rvBgKH+lfS6kj7wexN2/CpYXD1fwfXadz0FgU4JnyPZ0gw/iW0ncGpkqsOud0S9UkA8k+cq341+kn7xgMPJxxRFiRiGX7+nz8bniFyWfNKtb1EF0VdpeKyIdW5DUhSiq8ugomMcGye9lzilApsD7MCcIRwBzCCKkuQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALs/WPQtKqPh1jbrgf9JXUct6CcrQiM5RNwwDbc2Df3YJetLSc6AyzbQgEgDiDgwM+ZqYu2uZMf2HpF3nz8WSkCpLw2YCzHqRIVNd8Uc+pRaGDtID7UBwmdtmvjLzk/AptJpOVTgmcQ2q3ZveeRwSOfw00Q3Dsum3GUQunH2ayol</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
